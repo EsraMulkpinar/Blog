@@ -18,10 +18,12 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-image: url("../public/assets/images/SoundFlow-Home.png");
+  background-size: cover;
+  background-position: center;
+}
+@media (max-width: 767px) {
+  body {
+    background-size: auto; /* Yeniden boyutlandırmayı otomatik hale getiriyoruz */
+  }
 }
