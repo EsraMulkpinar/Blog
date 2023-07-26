@@ -1,5 +1,5 @@
 import React from 'react'
-import SideBar from './sub-components/side-bar'
+import SideBar from './sub-components/sideBar'
 
 const Blog = () => {
   return (
